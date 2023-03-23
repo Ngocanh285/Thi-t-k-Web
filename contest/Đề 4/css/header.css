@@ -1,0 +1,31 @@
+.logo {
+  height: 115px;
+  display: flex;
+  background-color: #499aea;
+}
+.logo img {
+  width: 100px;
+  height: 100px;
+  margin: 5px 10px 5px 45px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: monospace;
+  color: #175fb5;
+  margin-top: 22px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav ul {
+  gap: 0.3rem;
+  display: flex;
+}
+nav il {
+  background-color: #ecf1ed;
+  display: inline-block;
+  border: 1px solid #cdd7cf;
+  padding: 16px 30px;
+}

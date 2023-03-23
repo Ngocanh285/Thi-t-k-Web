@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  background-color: blue;
+}
+
+header ul {
+  transform: translateY(5px);
+}
+
+header li {
+  display: inline-block;
+}
+
+header a {
+  color: #fff;
+  font-weight: 600;
+}
+
+.right i {
+  opacity: 0.7;
+  font-size: 25px;
+  color: #fff;
+}
+
+header input[type="text"] {
+  height: 20px;
+  width: 200px;
+  transform: translateY(-4px);
+}
+
+.right span {
+  color: #fff;
+}
+
+.banner {
+  display: flex;
+  position: relative;
+}
+
+.banner img {
+  width: 130px;
+  height: 110px;
+}
+
+.title {
+  margin-top: 20px;
+}
+.title h1 {
+  color: blue;
+}
+
+.title h2 {
+  color: red;
+}
+
+.hotline {
+  position: absolute;
+  left: 1200px;
+  top: 24px;
+  border: 1px solid blue;
+  width: 360px;
+  margin-left: -230px;
+}
+
+p.name {
+  transform: translateY(-9px);
+  background: #fff;
+  width: 77px;
+}
+p.phone {
+  color: red;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+}
+
+.head {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  gap: 0.1rem;
+  border-bottom: 1px solid black;
+}
+.head a {
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  width: 30%;
+  background-color: black;
+}
+img.logomain {
+  margin: 0;
+  height: 50px;
+  width: 40%;
+  position: relative;
+}
+
+.head i {
+  font-size: 25px;
+}
+
+.linelogo i,
+.linelogo p {
+  opacity: 0.7;
+  color: #fff;
+}
+
+.linelogo {
+  width: 15%;
+  text-align: center;
+  background-color: black;
+  color: #fff;
+}
+
+ul.navlist {
+  visibility: hidden;
+  position: absolute;
+  top: 176px;
+  left: 680px;
+  width: 200px;
+  transition: ease-out 0.3s;
+}
+
+.linelogo:hover .navlist {
+  visibility: visible;
+  background-color: #ccc;
+}
+
+.navlist a {
+  color: black;
+  opacity: 0.7;
+}
+
+.container {
+  width: 99%;
+  margin-left: 10px;
+  border: 2px solid #0099ff;
+}
+.title2 {
+  display: flex;
+  padding: 5px;
+  background-color: #cccccc;
+}
+.select {
+  display: flex;
+  margin-left: 1015px;
+}
+.container-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.3rem;
+}
+.container-item img {
+  width: 250px;
+  height: 200px;
+}
+.goods {
+  width: 20%;
+}
+
+.goods p {
+  color: black;
+  font-size: 16;
+}
+
+.goods span {
+  color: black;
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+
+.goods p:hover {
+  background-color: #00a69b;
+  width: 250px;
+}
+
+.container-item img:hover {
+  width: 260px;
+  height: 210px;
+}
+
+footer {
+  height: 30px;
+  background-color: #cccccc;
+}

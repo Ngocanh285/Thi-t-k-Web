@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .submit {
+        margin-top: 10px;
+      }
+
+      form {
+        margin-left: 100px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form action="" id="form">
+      <div class="input">
+        <p>Nhap mang:</p>
+        <input type="text" id="input" />
+      </div>
+      <div class="output">
+        <p>Mang sau khi xoa</p>
+        <input type="text" id="output" />
+      </div>
+      <div class="submit">
+        <button id="delete">Huy bo</button>
+        <button id="submit">Xoa phan tu lon nhat</button>
+      </div>
+    </form>
+
+    <script>
+      let output = document.getElementById("output");
+      document.getElementById("submit").addEventListener("click", function (e) {
+        let n = document.getElementById("input").value;
+        let sum = 0;
+        let arr = [];
+        arr = n.split(",");
+        let newArr = [];
+        for (let i of arr) {
+          newArr.push(Math.floor(i));
+        }
+        console.log(newArr);
+        let filterResult = newArr.filter(function (element) {
+          let max = newArr[0];
+          for (let i = 1; i < newArr.length; i++) {
+            if (i > max) max = newArr[i];
+          }
+          console.log(max);
+          return element !== max;
+        });
+
+        output.value = filterResult;
+        console.log(filterResult);
+        e.preventDefault();
+      });
+
+      document.getElementById("delete").addEventListener("click", function () {
+        document.getElementById("form").reset();
+      });
+    </script>
+  </body>
+</html>

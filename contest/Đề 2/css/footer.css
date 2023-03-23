@@ -1,0 +1,28 @@
+footer {
+  position: relative;
+}
+footer ul {
+  width: 90%;
+  border-right: 1px solid #c6c8cf;
+  margin-top: 5px;
+  padding: 6px 0 6px 0;
+  background-color: #7d7b7c;
+}
+
+li.nav-end {
+  display: inline-block;
+  border-right: 1px solid #c6c8cf;
+  padding: 0 5px 0 5px;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+.end {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  padding: 6px 0 6px 0;
+  background-color: #e4e4e4;
+  margin-bottom: 10px;
+}

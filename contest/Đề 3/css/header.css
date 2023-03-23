@@ -1,0 +1,112 @@
+.logo {
+  display: flex;
+  font-size: 8px;
+  color: #fff;
+  background-color: #151515;
+  height: 65px;
+}
+.button-logo {
+  position: absolute;
+  right: 30px;
+}
+button.btn-help {
+  margin-right: 20px;
+  background-color: #223e4f;
+}
+button.btn-call {
+  background-color: #373737;
+}
+.button-logo button {
+  transform: translateY(50%);
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+h1 {
+  margin: 25px;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.search {
+  width: 100%;
+  height: 33px;
+  background-color: #e2e2e2;
+}
+.search-item {
+  display: flex;
+  float: right;
+  transform: translateY(50%);
+}
+.search-item a {
+  font-weight: 700;
+  color: black;
+}
+.search ul {
+  display: flex;
+  list-style: none;
+  margin-right: 75px;
+}
+.help {
+  display: flex;
+}
+.search-item li {
+  padding: 0 5px 0 5px;
+  border-right: 1px solid;
+}
+.search-item li:last-child,
+.menu li:last-child {
+  border-right: none;
+}
+.help a {
+  margin-right: 105px;
+}
+button.btn-kt {
+  padding: 2px;
+  position: absolute;
+  right: 280px;
+  top: -1px;
+  width: 74px;
+  border-radius: 5px;
+  border: none;
+  background-color: #761029;
+  color: #fff;
+}
+.help h4 {
+  margin-right: 15px;
+}
+.help input[type="text"] {
+  width: 153px;
+  margin-right: 5px;
+}
+button.btn-tk {
+  border: none;
+  margin-right: 16px;
+  padding: 0.5px;
+  background-color: #761029;
+  color: #fff;
+}
+
+.menu ul {
+  display: flex;
+
+  background-color: #3d535e;
+}
+.menu li {
+  display: inline-block;
+  padding: 5px 5px;
+  border-right: 1px solid #fff;
+  transition: all 0.5s ease-out;
+}
+.menu a {
+  color: #fff;
+  padding: 5px 20px 14px;
+}
+.menu li:hover a {
+  background-color: #fff;
+  color: black;
+  width: 100%;
+  border-radius: 8px;
+}

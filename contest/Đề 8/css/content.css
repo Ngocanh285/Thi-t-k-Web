@@ -1,0 +1,124 @@
+.content {
+  margin-top: 15px;
+  background-color: #ffcccc;
+  display: flex;
+}
+.menu h2 {
+  background-color: #0996a0;
+  color: #fff;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  opacity: 0.7;
+}
+
+ul {
+  list-style: none;
+}
+.navbar {
+  height: 40px;
+  width: 20%;
+  margin-bottom: 7px;
+}
+.menu {
+  height: 40px;
+  width: 100%;
+  position: relative;
+}
+.menu li {
+  padding: 20px 33px;
+  background-color: #66ffcc;
+  border-bottom: 1px solid gainsboro;
+}
+
+.nav-bar li {
+  position: relative;
+}
+
+.nav-list ul {
+  padding: 0;
+}
+.nav-list {
+  display: block;
+  position: absolute;
+  top: 202px;
+  left: 275px;
+  width: 222px;
+  flex-direction: column;
+  visibility: hidden;
+  transition: ease-out 0.2s;
+}
+.nav-list li {
+  padding: 15px 33px;
+}
+.nav-list a {
+  cursor: pointer;
+  width: 400px;
+  color: black;
+  opacity: 0.7;
+  text-align: center;
+  width: 100%;
+}
+.menu li:hover {
+  background-color: #ffcccc;
+}
+
+.hiden:hover .nav-list {
+  background-color: #ffcccc;
+  visibility: visible;
+  width: 222px;
+}
+.container {
+  width: 80%;
+  margin-left: 10px;
+  background-color: #66ff66;
+}
+.title {
+  display: flex;
+  padding: 5px;
+}
+.select {
+  display: flex;
+  margin-left: 715px;
+}
+.container-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.3rem;
+}
+.container-item img {
+  width: 250px;
+  height: 200px;
+}
+.goods {
+  width: 20%;
+}
+
+.goods p {
+  color: #330066;
+  font-size: 16;
+}
+
+.goods span {
+  color: black;
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+
+.goods p:hover {
+  background-color: #00a69b;
+  width: 250px;
+}
+
+.container-item img:hover {
+  width: 260px;
+  height: 210px;
+}
+
+.btn {
+  display: flex;
+}

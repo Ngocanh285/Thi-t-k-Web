@@ -1,0 +1,118 @@
+.container {
+  border: 1px solid gainsboro;
+  display: flex;
+  gap: 0.7rem;
+}
+
+.container-item {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.goods {
+  margin-top: 20px;
+  width: 55%;
+  margin-left: 20px;
+  background-color: #ccc;
+}
+
+.line {
+  color: #fff;
+  font-weight: 600;
+  width: 100%;
+  height: 30px;
+  background-color: #185fb7;
+}
+
+.item {
+  margin-bottom: 20px;
+  width: 29%;
+  height: 50%;
+
+  text-align: center;
+}
+.item img {
+  width: 100%;
+  height: 150px;
+  border: 1px solid rgb(175, 154, 154);
+}
+.item img:hover {
+  width: 110%;
+  height: 200px;
+}
+.item span {
+  color: red;
+  font-weight: 800;
+}
+.item p {
+  font-size: 16px;
+  color: #330066;
+}
+
+.line-through {
+  text-decoration: line-through;
+  color: rgb(104, 93, 93);
+}
+
+iframe {
+  width: 100%;
+}
+.search {
+  width: 21%;
+  margin: 20px 5px;
+}
+.search img {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+}
+input[type="text"] {
+  padding: 5px;
+  margin-top: 5px;
+}
+.right {
+  margin-left: 42px;
+  margin-top: 10px;
+}
+select#search {
+  width: 184px;
+  margin-left: 25px;
+  margin-top: 7px;
+}
+h2 {
+  color: #fff;
+  background-color: #185fb7;
+}
+
+button {
+  padding: 2px;
+  transform: translateX(240%);
+  margin-top: 10px;
+}
+
+.hang {
+  text-align: center;
+  width: 20%;
+  margin-top: 19px;
+}
+
+.hang h3 {
+  color: #fff;
+  background-color: palevioletred;
+  border-radius: 8px 8px 0 0;
+}
+
+.top,
+.between,
+.bot {
+  border-radius: 8px;
+  background-color: gainsboro;
+  margin-top: 8px;
+  border: 1px solid violet;
+}
+
+.top {
+  margin-top: 0;
+}

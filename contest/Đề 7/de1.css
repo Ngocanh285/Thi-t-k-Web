@@ -1,0 +1,133 @@
+#home {
+  width: 100%;
+}
+ul {
+  list-style: none;
+}
+.header-head {
+  width: 100%;
+  display: flex;
+}
+
+.head-img {
+  width: 20%;
+}
+.head-img img {
+  width: 128px;
+  margin-top: -4px;
+  margin-left: 85px;
+}
+.nav-head {
+  width: 80%;
+}
+.nav-head ul {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 3px;
+  grid-gap: 2rem;
+  justify-content: space-evenly;
+}
+a {
+  text-decoration: none;
+}
+.header-head .nav-head i {
+  color: green;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: greenyellow;
+}
+
+.nav-bar ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.nav-bar li {
+  position: relative;
+}
+.nav-bar a:hover {
+  color: #66ffff;
+}
+.nav-list ul {
+  padding: 0;
+}
+.nav-list {
+  display: none;
+  position: absolute;
+  min-width: auto;
+
+  visibility: hidden;
+}
+.nav-list a {
+  cursor: pointer;
+  min-width: 200px;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+.nav-list a:hover {
+  background-color: #ffccff;
+}
+
+.hiden:hover .nav-list {
+  background-color: #ffccff;
+  visibility: visible;
+  display: block;
+}
+.listbutton ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.listbutton li {
+  padding: 1px;
+  border: 1px solid #ffccff;
+  border-radius: 50px;
+}
+.listbutton li:hover {
+  background-color: #f36d8f;
+  color: #fff;
+}
+.listbutton a {
+  color: #ffccff;
+  font-size: 16px;
+  padding: 1px;
+}
+.listgoods {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.goods {
+  margin-bottom: 20px;
+  width: 22%;
+
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  text-align: center;
+}
+.goods img {
+  width: 100%;
+  height: 200px;
+}
+.goods span {
+  color: red;
+  font-weight: 800;
+}
+.goods .line-through {
+  text-decoration: line-through;
+  color: rgb(104, 93, 93);
+}
+
+.goods p {
+  font-size: 16px;
+  color: #000066;
+}
+
+.goods p:hover {
+  font-size: 20px;
+  color: #00a69b;
+}

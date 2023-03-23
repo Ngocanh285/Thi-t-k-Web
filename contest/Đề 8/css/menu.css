@@ -1,0 +1,53 @@
+.head {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  gap: 0.1rem;
+  border-bottom: 1px solid black;
+}
+.head a {
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  width: 30%;
+  background-color: black;
+}
+img.logomain {
+  margin: 0;
+  height: 50px;
+  width: 40%;
+  position: relative;
+}
+
+.head i {
+  font-size: 25px;
+}
+
+.linelogo i,
+.linelogo p,
+.linelogo1 i,
+.linelogo1 p {
+  opacity: 0.7;
+}
+.linelogo1 {
+  width: 10%;
+  text-align: center;
+}
+.linelogo {
+  width: 10%;
+  text-align: center;
+  background-color: yellow;
+}
+
+input[type="text"] {
+  padding: 8px;
+  position: absolute;
+  top: 8px;
+}
+
+img.searh {
+  position: absolute;
+  left: 295px;
+  top: 13px;
+}

@@ -1,0 +1,13 @@
+@import url(header.css);
+@import url(content.css);
+@import url(footer.css);
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,17 @@
+footer {
+  background-color: #333333;
+  height: 60px;
+}
+footer ul {
+  transform: translateY(58%);
+}
+footer li {
+  padding: 4px;
+  display: inline-block;
+  border-right: 1px solid #fff;
+}
+
+footer a {
+  color: #fff;
+  opacity: 0.3;
+}

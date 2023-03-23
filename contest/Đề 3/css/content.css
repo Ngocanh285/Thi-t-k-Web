@@ -1,0 +1,151 @@
+button {
+  cursor: pointer;
+}
+img.backgroud {
+  margin-top: 6px;
+  width: 100%;
+}
+
+.nav_bar ul {
+  margin-top: -5px;
+  display: flex;
+  list-style: none;
+  background-color: #010101;
+}
+
+.nav_bar li {
+  margin-top: 10px;
+  text-align: center;
+  padding: 10px;
+  margin-left: 31px;
+  width: 145px;
+  background-color: #424242;
+  border-radius: 8px;
+  transition: all 0.5s ease-out;
+}
+
+.nav_bar .color {
+  background-color: #fff;
+  color: black;
+
+  border-radius: 8px;
+}
+
+/*-----*/
+.khoi-slide {
+  width: 100%;
+  position: relative;
+}
+
+.cac-slide {
+  width: 100%;
+  margin-top: -6px;
+  display: flex;
+}
+
+.slide img {
+  width: 100%;
+  height: 105px;
+}
+
+.nut-slide span {
+  opacity: 0.6;
+  font-size: 20px;
+}
+
+span#btn-prev {
+  position: absolute;
+  top: 41px;
+  left: 3px;
+  cursor: pointer;
+}
+
+span#btn-next {
+  position: absolute;
+  top: 41px;
+  right: 3px;
+  cursor: pointer;
+}
+
+.container {
+  height: 230px;
+  margin-top: -5px;
+  background-color: #333333;
+}
+.content-item {
+  display: flex;
+  width: 80%;
+}
+
+.item1 {
+  width: 27%;
+  border-right: 1px solid black;
+  padding: 5px;
+}
+.item2 {
+  width: 45%;
+  padding: 5px;
+}
+
+.item1 img {
+  width: 90%;
+}
+.item2 img {
+  width: 87%;
+  margin-top: 8px;
+}
+.content-item h5 {
+  color: #fff;
+}
+.content-item p {
+  margin-top: 5px;
+  color: #fff;
+  opacity: 0.3;
+}
+
+p.text {
+  font-size: 15px;
+}
+
+.inputt {
+  position: absolute;
+  bottom: 120px;
+  right: 7px;
+}
+
+.inputt ul {
+  display: flex;
+  list-style: none;
+}
+
+.inputt a {
+  color: #fff;
+  font-weight: 700;
+}
+.inputt li {
+  border-right: 1px solid #fff;
+  padding: 3px;
+  margin-bottom: 10px;
+}
+.inputt li:last-child {
+  border-right: none;
+}
+.inputt p {
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+.inputt input {
+  height: 25px;
+  width: 200px;
+}
+
+.inputt button {
+  position: absolute;
+  bottom: -35px;
+  left: 122px;
+  padding: 4px;
+  border: none;
+  color: #fff;
+  background-color: #7a0120;
+}

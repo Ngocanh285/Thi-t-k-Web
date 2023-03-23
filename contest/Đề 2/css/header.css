@@ -1,0 +1,54 @@
+header {
+  height: 131px;
+}
+
+li.nav-item {
+  position: relative;
+  display: inline-block;
+  border-right: 1px solid #c6c8cf;
+  padding: 0 5px 0 5px;
+}
+
+header a {
+  text-decoration: none;
+  color: #8e929d;
+}
+header img {
+  margin-left: 30px;
+}
+.search {
+  float: right;
+  margin-right: 20px;
+}
+.head-btn {
+  border-radius: 7px;
+  padding: 5px;
+  color: #a60446;
+  font-weight: 600;
+  font-size: 15px;
+  right: 88px;
+  top: 32px;
+  position: absolute;
+  width: 22%;
+  background-color: #ebefed;
+  border: none;
+}
+.input {
+  position: absolute;
+  top: 82px;
+  right: 3px;
+  width: 42%;
+}
+select {
+  padding: 3px;
+}
+input[type="text"] {
+  padding: 3px;
+  width: 50%;
+}
+.click {
+  background-color: #bb2363;
+  border: none;
+  padding: 5px;
+  color: #fff;
+}

@@ -1,0 +1,17 @@
+@import url(content.css);
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header img {
+  width: 100%;
+  height: 90px;
+}
+
+footer {
+  margin-top: 8px;
+  background-color: orangered;
+  height: 30px;
+}

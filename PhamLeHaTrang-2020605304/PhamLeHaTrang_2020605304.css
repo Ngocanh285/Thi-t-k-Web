@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 230px;
+}
+
+header img {
+  width: 100%;
+  height: 200px;
+}
+
+.nav {
+  display: flex;
+  height: 30px;
+  background-color: #33ccff;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+.nav li {
+  padding: 8px;
+}
+
+.nav li:hover {
+  background-color: green;
+}
+
+.nav a {
+  color: #fff;
+}
+
+.nav a:hover {
+  color: yellow;
+}
+
+.quocky {
+  display: flex;
+  margin-left: 150px;
+  transform: translateY(5px);
+  gap: 0.5rem;
+}
+
+.quocky img {
+  width: 40px;
+  height: 20px;
+}
+
+input[type="text"] {
+  height: 25px;
+  margin-left: 200px;
+  width: 230px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  margin-top: 30px;
+}
+
+.menu {
+  width: 25%;
+}
+
+.menu h3 {
+  color: #fff;
+  background-color: #0066ff;
+  height: 30px;
+}
+
+ul.list {
+  background-color: #33ffff;
+}
+
+ul.list li {
+  padding: 10px;
+  border-bottom: 1px solid #fff;
+}
+
+ul.list a {
+  color: #fff;
+}
+
+ul.hiden {
+  display: none;
+}
+
+.navlist:hover .hiden {
+  display: block;
+}
+
+.content-item {
+  width: 70%;
+}
+
+.line {
+  color: #fff;
+  background-color: #33ccff;
+  height: 30px;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.sp img {
+  width: 224px;
+  height: 180px;
+}
+
+.sp p {
+  text-align: center;
+  cursor: pointer;
+}
+
+.sp p:hover {
+  color: red;
+}

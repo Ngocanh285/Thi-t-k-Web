@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 50px;
+  display: flex;
+  background-color: #0099ff;
+}
+
+img.logo {
+  width: 170px;
+  height: 50px;
+}
+
+header p {
+  margin-left: 30px;
+  transform: translateY(16px);
+  color: #fff;
+}
+
+button {
+  height: 30px;
+  transform: translateY(10px);
+  margin-left: 200px;
+}
+
+button img {
+  width: 24px;
+  height: 15px;
+}
+
+input[type="text"] {
+  height: 30px;
+  transform: translateY(9px);
+  margin-left: 200px;
+}
+
+i.fas.fa-search {
+  transform: translateY(20px);
+}
+
+#menu {
+  background-color: #2f12bc;
+}
+#menu .nav a {
+  color: white;
+}
+#menu .nav {
+  display: flex;
+}
+#menu > .nav > li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#menu ul .subnav {
+  display: none;
+  position: absolute;
+  background-color: white;
+  margin-top: 9px;
+}
+#menu ul .subnav li {
+  display: flex;
+  flex-direction: column;
+}
+
+#menu ul .subnav li a {
+  padding: 10px 20px;
+  color: black;
+}
+#menu > .nav > li > a {
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+#menu .nav > li:hover {
+  background-color: #1295d5;
+}
+#menu .nav > li:hover > a {
+  color: #ffff33;
+}
+#menu ul li:hover .subnav {
+  display: block;
+}
+
+#menu .subnav li:hover a {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  border: 1px solid gainsboro;
+  display: flex;
+  gap: 0.7rem;
+}
+
+.container-item {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.goods {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.line {
+  color: #fff;
+  font-weight: 600;
+  width: 100%;
+  height: 30px;
+  background-color: #0099ff;
+}
+.find {
+  display: flex;
+  padding: 10px 0 10px 0;
+  border: 1px solid #cccccc;
+  margin-bottom: 10px;
+}
+.find select {
+  width: 200px;
+}
+
+select.seen1 {
+  width: 40px;
+}
+
+.seen {
+  margin-left: 850px;
+}
+
+.item {
+  margin-bottom: 20px;
+  width: 30%;
+  height: 50%;
+  border: 1px solid rgb(175, 154, 154);
+  text-align: center;
+}
+.item img {
+  width: 200px;
+  height: 300px;
+}
+
+.item span {
+  color: red;
+  font-weight: 800;
+}
+
+.item p {
+  font-weight: 700;
+}
+
+.item p:hover {
+  color: #009933;
+}

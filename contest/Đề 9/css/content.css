@@ -1,0 +1,144 @@
+.content {
+  margin-top: 20px;
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+.navbar {
+  width: 18%;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.7;
+  font-weight: 600;
+}
+
+.navbar li {
+  padding: 8px;
+  border-bottom: 1px solid #fff;
+  position: relative;
+  background-color: #66ffff;
+}
+.hiden li {
+  background-color: #00a69b;
+}
+
+.navbar ul.hiden {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 245px;
+  width: 200px;
+
+  transition: ease-out 0.3s;
+}
+
+.navlist:hover .hiden {
+  visibility: visible;
+}
+
+.contain {
+  width: 67%;
+  margin-left: 10px;
+}
+
+.line {
+  display: flex;
+  background-color: orangered;
+  color: #fff;
+  height: 20px;
+}
+.choose {
+  display: flex;
+  margin-left: 300px;
+}
+
+.contain-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+
+  padding: 10px;
+  border: 1px solid orangered;
+  background-color: #00a69b;
+}
+
+.item {
+  border: 1px solid #ccc;
+}
+.item img {
+  width: 250px;
+  height: 200px;
+  padding: 5px;
+}
+
+.item p {
+  font-size: 16px;
+  color: #cc3366;
+  text-align: center;
+}
+.item span {
+  color: #ff0000be;
+}
+
+.btn {
+  text-align: center;
+  padding: 5px;
+}
+
+.btn button {
+  background-color: sandybrown;
+  color: yellow;
+  padding: 3px;
+  border: none;
+  cursor: pointer;
+}
+.contain-item:hover .item p {
+  background-color: #00a69b;
+}
+
+.item img:hover {
+  width: 260px;
+  height: 210px;
+}
+
+.hang {
+  width: 15%;
+  margin-left: 5px;
+  height: 100px;
+}
+
+.hang h3 {
+  color: #fff;
+  background-color: orangered;
+  border-radius: 8px 8px 0 0;
+  padding: 5px;
+}
+.hang p {
+  padding: 5px;
+}
+
+.top,
+.bot {
+  border-radius: 8px;
+  background-color: gainsboro;
+  margin-top: 8px;
+  border: 1px solid orangered;
+}
+
+.top {
+  margin-top: 0;
+}
+.hang a {
+  text-decoration: none;
+}
+
+.bot p {
+  width: 60%;
+  margin-left: 60px;
+  transform: translateY(-60px);
+}

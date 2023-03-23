@@ -1,0 +1,14 @@
+.color {
+  height: 30px;
+  background-color: #2772bb;
+}
+.info {
+  background-color: #afaeb3;
+  height: 77px;
+}
+.info p {
+  padding: 5px;
+  text-align: center;
+  color: #000;
+  opacity: 0.4;
+}

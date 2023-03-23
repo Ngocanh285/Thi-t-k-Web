@@ -1,0 +1,7 @@
+@import url(head.css);
+@import url(body.css);
+
+* {
+  padding: 0;
+  margin: 0;
+}
